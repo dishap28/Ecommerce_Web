@@ -1,5 +1,5 @@
 package TestScripts_Web;
-
+//author : disha pise
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -21,7 +21,7 @@ public class TC_Happy_Flow_Till_Marsdevautomation {
 	public void automationExercise() throws Exception {
 
 		drivermanager.launchBrowser();
-
+        System.out.println("browser launch");
 		Properties configProp = new Properties();
 		FileInputStream configFis = new FileInputStream("src/main/java/config/config.properties");
 		configProp.load(configFis);
