@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Journeys of BFL" parallel="tests" thread-count="1">
+
+
+
+
+	
+	
+<!--	<test name="TC_AndroidApp">-->
+<!--		<parameter name="Environment" value="Local"/>-->
+<!--		<parameter name="RandomDeviceFlag" value="false"/>-->
+<!--		<parameter name="Device" value="AndroidApp"/>-->
+<!--		<parameter name="PlatformName" value="android"/>-->
+<!--		<parameter name="DeviceName" value="Oppo"/>-->
+<!--		<parameter name="os_version" value="12.0"/>-->
+<!--		<parameter name="apkPath" value="033f79c3baf7fbbe19536d548ccdca53c6794072"/>-->
+<!--		<parameter name="AppActivityName" value="com.bfl.superapp.onboarding.revamp.activity.SplashActivity"/>-->
+<!--		<parameter name="AppPackageName" value="org.altruist.BajajExperia"/>-->
+<!--		<parameter name="UID" value="RZCW514ZT5X " />-->
+<!--		<classes> <class name="TestScripts_App.TC_Happy_Flow_Till_Payment_Initiation_Page" />-->
+<!--		</classes>-->
+<!--	</test>-->
+	
+
+
+	<test name="TC_DesktopBrowser">
+		<parameter name="Environment" value="Local" />
+		<parameter name="Device" value="WebBrowser" />
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+	      <class name="TestScripts_Web.TC_Happy_Flow_Till_Payment_Initiation_Page"/>
+		</classes>
+	</test>
+
+
+
+</suite>
+
+
+<!--	-->
+<!--	<test name="TC_AndroidApp">-->
+<!--		<parameter name="Environment" value="Local" />-->
+<!--		<parameter name="RandomDeviceFlag" value="false" />-->
+<!--		<parameter name="Device" value="AndroidApp" />-->
+<!--		<parameter name="PlatformName" value="android"/>-->
+<!--		<parameter name="DeviceName" value="Samsung Galaxy S22" />-->
+<!--		<parameter name="os_version" value="13.0" />-->
+<!--		<parameter name="apkPath" value="d1881dd766977ed2af5deec0475a164f1779dbc8" />-->
+<!--		<parameter name="AppActivityName"-->
+<!--	value="com.bfl.superapp.onboarding.revamp.activity.SplashActivity" />-->
+<!--		<parameter name="AppPackageName" value="org.altruist.BajajExperia" />-->
+<!--		<parameter name="UID" value="3b04820a" />-->
+<!--		<classes>-->
+<!--			<class name="TestScripts.TC_To_Check_LandingPage" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+
+
+<!--		<test name="TC_DesktopBrowser">-->
+<!--		<parameter name="Environment" value="Local" />-->
+<!--		<parameter name="Device" value="WebBrowser" />-->
+<!--		<parameter name="Browser" value="Chrome" />-->
+<!--		<classes>-->
+<!--	      <class name="TestScripts_Web.TC_Happy_Flow_Till_Payment_Initiation_Page"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+		
+<!--		<test name="TC_MobileBrowser">-->
+<!--		<parameter name="Environment" value="Local" />-->
+<!--		<parameter name="Device" value="MobileBrowser" />-->
+<!--		<parameter name="Browser" value="chrome" />-->
+<!--		<classes>-->
+<!--			<class name="TestScripts.TC_To_Check_LandingPage" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--	<test name="TC_AndroidApp">-->
+<!--		<parameter name="Environment" value="Local" />-->
+<!--		<parameter name="RandomDeviceFlag" value="false" />-->
+<!--		<parameter name="Device" value="AndroidApp" />-->
+<!--		<parameter name="PlatformName" value="android" />-->
+<!--		<parameter name="DeviceName" value="Samsung Galaxy S22" />-->
+<!--		<parameter name="os_version" value="13.0" />-->
+<!--		<parameter name="apkPath" value="d1881dd766977ed2af5deec0475a164f1779dbc8" />-->
+<!--		<parameter name="AppActivityName"-->
+<!--	value="com.bfl.superapp.onboarding.revamp.activity.SplashActivity" />-->
+<!--		<parameter name="AppPackageName" value="org.altruist.BajajExperia" />-->
+<!--		<parameter name="UID" value="3b04820a" />-->
+<!--		<classes>-->
+<!--			<class name="TestScripts.TC_To_Check_LandingPage" />-->
+<!--		</classes>-->
+<!--	</test>-->
+	
+<!--	-->
+
+
+	<!--
+	<test name="TC_iOSApp">
+		<parameter name="Device" value="iOSApp" />
+		<parameter name="PlatformName" value="IOS"/>
+  		<parameter name="AppActivityName" value=""/>
+		<parameter name="AppPackageName" value=""/>
+		<parameter name="DeviceName" value=""/>
+		<parameter name="UID" value=""/>
+		<classes>
+			<class name="TestScripts.TC_To_Check_LandingPage"/>
+		</classes>
+	</test>
+		   
+
+	<test name="TC_FinalOutput">
+		<classes>
+			<class name="TestScripts.TC_To_Creating_Final_Output" />
+		</classes>
+	</test>
+
+	<test name="TC_SendEmail">-->
+<!--		<classes>-->
+<!--			<class name="TestScripts.TC_To_Send_Email" />-->
+<!--		</classes>-->
+<!--	</test>-->
+ 
